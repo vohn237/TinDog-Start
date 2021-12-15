@@ -7,7 +7,7 @@ body {
   color: #fff;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -56,12 +56,20 @@ h3 {
 .img-d {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.title-image-container {
+  position: relative;
 }
 
 /* Features */
 
 #features {
   padding: 7% 15%;
+  position: relative;
+  background: #fff;
 }
 
 .ftr {
