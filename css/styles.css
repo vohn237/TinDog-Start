@@ -161,3 +161,17 @@ h3 {
   font-size: 3.5rem;
   color: #fff;
 }
+
+/* Footer */
+#footer {
+  background: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+#footer i {
+  margin: 3%;
+}
+
+#footer p {
+  color: lightgray;
+}
