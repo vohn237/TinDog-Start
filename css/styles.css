@@ -1,32 +1,44 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-#title {
-  background: #ff4c6b;
-  color: #fff;
-}
-.container-fluid {
-  padding: 3% 15% 7%;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
 }
 
-h1 {
-  font-family: "Montserrat-Black";
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+
+.big-heading {
+  font-family: Montserrat-Black;
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #fff;
 }
 
-h2 {
-  font-family: "Montserrat-Bold";
+.section-heading {
+  font-family: Montserrat-Black;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  margin: auto;
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
+#title .container-fluid {
+  margin-top: 0;
+}
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -45,14 +57,18 @@ h3 {
   font-family: "Montserrat-Light";
 }
 
-/* Download Buttons */
+/* Title Section */
+#title {
+  background: #ff4c6b;
+  color: #fff;
+  text-align: left;
+}
 
-.dwn-btn {
-  margin: 5% 3% 5% 0;
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Title Image */
-
 .img-d {
   width: 60%;
   transform: rotate(25deg);
@@ -64,22 +80,30 @@ h3 {
   position: relative;
 }
 
-/* Features */
+/* Download Buttons */
+.dwn-btn {
+  margin: 5% 3% 5% 0;
+}
 
+/* Features */
 #features {
-  padding: 7% 15%;
   position: relative;
   background: #fff;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .ftr {
-  text-align: center;
   padding: 0 5%;
 }
+
 .ftr h3 {
   font-family: "Montserrat-Bold";
   font-size: 1.5rem;
 }
+
 .ftr p {
   color: #8f8f8f;
 }
@@ -89,16 +113,21 @@ h3 {
   padding-bottom: 5%;
   color: #ef8172;
 }
+
 .ftr i:hover {
   color: #ff4c68;
 }
 
 /* Testimonials */
-
 #testimonials {
   background: #ef8172;
-  text-align: center;
+
   color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -108,70 +137,50 @@ h3 {
 }
 
 .carousel-item {
-  padding: 7% 15%;
 }
 
 #press {
   background: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo {
   width: 12%;
-  margin: 20px;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
-#pricing {
-  padding: 7% 10%;
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .card {
-  text-align: center;
   height: 100%;
-}
-#pricing {
-  text-align: center;
 }
 
 .row {
   margin-top: 4%;
 }
 
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-  .img-d {
-    position: static;
-    transform: rotate(0deg);
-  }
-}
-
 /* Call to Action */
-
 #cta {
-  padding: 7% 15%;
   background: #ff4c68;
-  text-align: center;
-}
-
-#cta h3 {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  color: #fff;
 }
 
 /* Footer */
 #footer {
   background: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 #footer i {
   margin: 3%;
 }
 
-#footer p {
-  color: lightgray;
+/* Responsivenes */
+@media (max-width: 1028px) {
+  #title {
+  }
+  .img-d {
+    position: static;
+    transform: rotate(0deg);
+  }
 }
