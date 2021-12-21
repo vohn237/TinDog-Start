@@ -31,14 +31,23 @@ p {
 }
 
 /* Containers */
+
 .container-fluid {
   padding: 7% 15%;
 }
 
-/* Navigation Bar */
-#title .container-fluid {
-  margin-top: 0;
+/* Sections */
+
+.white-section {
+  background-color: #fff;
 }
+
+.colored-section {
+  background-color: #ff4c6b;
+  color: #fff;
+}
+
+/* Navigation Bar */
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -57,18 +66,23 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* Title Section */
-#title {
-  background: #ff4c6b;
-  color: #fff;
-  text-align: left;
+/* Buttons */
+
+.dwn-btn {
+  margin: 5% 3% 5% 0;
 }
+
+/* Title Section */
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
-/* Title Image */
+.title-image-container {
+  position: relative;
+}
+
 .img-d {
   width: 60%;
   transform: rotate(25deg);
@@ -76,19 +90,10 @@ p {
   right: 20%;
 }
 
-.title-image-container {
-  position: relative;
-}
-
-/* Download Buttons */
-.dwn-btn {
-  margin: 5% 3% 5% 0;
-}
-
 /* Features */
+
 #features {
   position: relative;
-  background: #fff;
 }
 
 .feature-title {
@@ -96,7 +101,7 @@ p {
 }
 
 .ftr {
-  padding: 0 5%;
+  padding: 4.5%;
 }
 
 .ftr h3 {
@@ -110,7 +115,7 @@ p {
 
 .ftr i {
   font-size: 2.5rem;
-  padding-bottom: 5%;
+  margin-bottom: 1rem;
   color: #ef8172;
 }
 
@@ -119,10 +124,9 @@ p {
 }
 
 /* Testimonials */
+
 #testimonials {
   background: #ef8172;
-
-  color: #fff;
 }
 
 .testimonial-text {
@@ -131,24 +135,23 @@ p {
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 8%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item {
-}
-
+/* Press Section */
 #press {
   background: #ef8172;
   padding-bottom: 3%;
 }
 .press-logo {
   width: 12%;
-  margin: 20px 20px 50px;
+  padding: 25px;
 }
 
 /* Pricing Section */
+
 .pricing-text {
   font-size: 3rem;
   line-height: 1.5;
@@ -158,24 +161,14 @@ p {
   height: 100%;
 }
 
-.row {
-  margin-top: 4%;
-}
-
-/* Call to Action */
-#cta {
-  background: #ff4c68;
-}
-
 /* Footer */
-#footer {
-  background: #fff;
-}
+
 #footer i {
   margin: 3%;
 }
 
 /* Responsivenes */
+
 @media (max-width: 1028px) {
   #title {
   }
